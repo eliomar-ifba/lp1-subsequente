@@ -25,26 +25,15 @@ public class App {
         aluno2.nome = "Maria";
         aluno2.matricula = m;
 
-        System.out.println("Alunos");
-        System.out.println("Nome: " + aluno.nome);
-        System.out.println("Idade: " + aluno.idade);
-        System.out.println("Matricula Código: " + aluno.matricula.numero);
-        System.out.println("Matricula Status: " + aluno.matricula.status);
-        System.out.println("Matricula Status: " + aluno.matricula.dataHora);
+        // Métodos proporcionam 
+        // Reaproveitamento de código (código limpo)
+        // Manutenção rápida e segura (solidez)
+        System.out.println("\n\n##### Alunos #####");
         
-        System.out.println("\nNome: " + aluno2.nome);
-        System.out.println("Idade: " + aluno2.idade);
-        System.out.println("Matricula Código: " + aluno2.matricula.numero);
-        System.out.println("Matricula Status: " + aluno2.matricula.status);
-        System.out.println("Matricula Status: " + aluno2.matricula.dataHora);
-
-
-
-
-
-
-
-
-
+        aluno.imprimirDados(1);
+        aluno2.imprimirDados(2);
+    
+        
+        
     }
 }
